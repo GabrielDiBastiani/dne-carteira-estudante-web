@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Validação de CIE (Carteira de Identificação Estudantil)</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-inner">
+        <a class="logo" href="index.html">
+          <img src="https://assets.meiaentrada.org.br/static/media/logo-meia-entrada.1880ce37.svg" height="80" class="d-inline-block align-top" alt="Logo">
+        </a>
+        <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="nav" id="main-nav">
+          <div class="nav-item has-dropdown">
+            <button type="button">Lei da Meia-entrada <span class="chevron"></span></button>
+            <ul class="dropdown">
+              <li><a href="https://meiaentrada.org.br/">A Lei</a></li>
+              <li><a href="https://meiaentrada.org.br/">Padrão Nacional</a></li>
+              <li><a href="https://meiaentrada.org.br/">Como Funciona</a></li>
+            </ul>
+          </div>
+          <div class="nav-item has-dropdown active">
+            <button type="button">Validação <span class="chevron"></span></button>
+            <ul class="dropdown">
+              <li><a href="https://meiaentrada.org.br/validador/itens-de-seguranca">Itens de segurança</a></li>
+            </ul>
+          </div>
+          <a class="nav-item" href="https://meiaentrada.org.br/chaves-publicas">Chaves públicas</a>
+          <a class="nav-item" href="https://meiaentrada.org.br/perguntas-e-respostas">FAQ</a>
+          <a class="nav-item" href="https://meiaentrada.org.br/noticias">Notícias</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <div class="page-title">
+        <h1>Validação de CIE (Carteira de Identificação Estudantil)</h1>
+        <span class="title-line" aria-hidden="true"></span>
+      </div>
+
+      <div class="success-banner">Documento válido!</div>
+
+      <p class="attestation">
+        UNE atesta que <span data-field="nome">Larissa Loranna Alencar de Sousa</span>
+        é estudante e está regularmente matriculado(a) em
+        <span data-field="curso">Pedagogia</span> da instituição
+        <span data-field="instituicao">Universidade Paulista</span>
+      </p>
+
+      <section class="student-block">
+        <div class="student-data">
+          <div class="data-row">
+            <span class="data-label">Nome</span>
+            <span class="data-value" data-field="nome">Larissa Loranna Alencar de Sousa</span>
+          </div>
+          <div class="data-row">
+            <span class="data-label">Instituição</span>
+            <span class="data-value" data-field="instituicao">Universidade Paulista</span>
+          </div>
+          <div class="data-row">
+            <span class="data-label">Curso</span>
+            <span class="data-value" data-field="curso">Pedagogia</span>
+          </div>
+          <div class="data-row">
+            <span class="data-label">Documento de Identificação</span>
+            <span class="data-value" data-field="documento">000000395456034</span>
+          </div>
+          <div class="data-row">
+            <span class="data-label">Emissor</span>
+            <span class="data-value" data-field="emissor">UNE</span>
+          </div>
+        </div>
+        <div class="student-photo">
+          <img
+            data-field="foto"
+            src="https://st3.depositphotos.com/2024219/31793/i/450/depositphotos_317939792-stock-photo-young-woman-isolated-yellow-background.jpg"
+            alt="Foto do estudante"
+          />
+        </div>
+      </section>
+
+      <section class="pem-section">
+        <h2>Certificado de Atributo em formato PEM:</h2>
+        <div class="pem-box">
+          <p class="pem-marker">-----BEGIN CERTIFICATE-----</p>
+          <pre class="pem-body">MIID8TCCAtkCAQEwgYCgfjB5pHcwdTELMAkGA1UEBhMCQlIxEzARBgNVBAoMCklD
+UC1CcmFzaWwxJjAkBgNVBAsMHVVOSUFPIE5BQ0lPTkFMIERPUyBFU1RVREFOVEVT
+MSkwJwYDVQQDDCBMYXJpc3NhIExvcmFubmEgQWxlbmNhciBkZSBTb3VzYQIBAaCB
+zjCBy6SByDCBxTELMAkGA1UEBhMCQlIxEzARBgNVBAoMCklDUC1CcmFzaWwxFzAV
+BgNVBAsMDjE0MTIxOTU3MDAwMTA5MRkwFwYDVQQLDBBWaWRlb2NvbmZlcmVuY2lh
+MQ4wDAYDVQQLDAVWQUxJRDEbMBkGA1UECwwSUGVzc29hIEp1cmlkaWNhIEEzMRgw
+FgYDVQQLDA9BQyBWQUxJRCBCUkFTSUwxJjAkBgNVBAMMHVVOSUFPIE5BQ0lPTkFM
+IERPUyBFU1RVREFOVEVTMA0GCSqGSIb3DQEBBQUAAgQA1kyLMCIYDzIwMjQwNzEx
+MTMzNjMyWhgPMjAyNTAzMzEyMzU5NTlaMIHNMEYGBWBMAQoBMT0TOzEzMTExOTk5
+NDU5MTM3NzI4ODEwMDAwMDAwMFQ4Nzk3MzYwMDAwMDAzOTU0NTYwMzQgICAgICAg
+ICAgMHYGBWBMAQoCMW0Ta0NlbnRybyBVbml2ZXJzaXRhcmlvIFBhdWxpc3Rhbm8g
+ICAgICAgICBTVVBFUklPUiAgICAgICBDb21wbGVtZW50YWNhbyBQZWRhZ29naWNh
+ICAgICBCYXJ1ZXJpICAgICAgICAgICAgIFNQMAsGBWBMAQQDMQITADB3MDMGA1Ud
+HwQsMCqhKIYmaHR0cHM6Ly91bmUuZG5lLnZjL3YxL2NybC91bmUuY3JsP2lkPTMw
+HQYDVR0jBBaAFMjcELS9S/92KxXVR8Ng1zkde73OMCEGCCsGAQUFBwEBBBUwEwYI
+KwYBBQUHMAIEB4YFSFRUUFMwDQYJKoZIhvcNAQEFBQADggEBAG9XU6UfU6ZCKV5d
+N6INIrjVsUQx+uixBs0zOVP9sziLJrzCbWJgPdD8rF5Uis7uP6z2dYED8sv1Oa6j
+otqN8zMxy3dzLz+iVfNqQd/Om24Cq6IgDzSg9ORRXkluLmHYaspIQfswSNQao+j1
+/onXgEkYzBfnikCnka/gR37SZMB5E6o6ARcsJ15zaz4K/x2qf3XJoAgUVrhLeq70
+652LDx/+255+MFhimXszpBenzux3ne2yrb9QL+uHUY1voMbOph+btV0Dh0X/VM8O
+PbfHhVHSqf80SgVmnlY6M8ylD0d/95nwo+NVokFFnTy5VN9xFUuY1G969erPNhVn
+iMAjvn4=</pre>
+          <p class="pem-marker">-----END CERTIFICATE-----</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        <h2>meiaentrada.org.br</h2>
+        <div class="footer-links">
+          <ul>
+            <li><a href="https://meiaentrada.org.br/">Home</a></li>
+            <li><a href="https://meiaentrada.org.br/">Lei da Meia-entrada</a></li>
+            <li><a href="https://meiaentrada.org.br/chaves-publicas">Chaves públicas</a></li>
+            <li><a href="https://meiaentrada.org.br/perguntas-e-respostas">FAQ</a></li>
+          </ul>
+          <ul>
+            <li><a href="https://meiaentrada.org.br/noticias">Notícias</a></li>
+            <li><a href="https://meiaentrada.org.br/termos">Termos de Uso e Política de Privacidade</a></li>
+          </ul>
+        </div>
+        <p class="copyright">@Meiaentrada.org.br - Todos os Direitos Reservados 2026</p>
+      </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
