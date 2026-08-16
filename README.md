@@ -19,22 +19,21 @@ A URL fica:
 
 | Parâmetro | Descrição | Padrão |
 | --- | --- | --- |
-| `cie` | Número da CIE | `DD2O0R` |
-| `nasc` | Data de nascimento (`YYYY-MM-DD`) | `1999-11-13` |
-| `nome` | Nome do estudante | Larissa Loranna Alencar de Sousa |
-| `instituicao` | Instituição de ensino | Universidade Paulista |
-| `curso` | Curso | Pedagogia |
-| `documento` | Documento de identificação | `000000395456034` |
+| `cie` | Número da CIE | `D2LASB` |
+| `nasc` | Data de nascimento (`YYYY-MM-DD`) | `1999-01-25` |
+| `nome` | Nome do estudante | Gabriel Di Bastiani do Amaral |
+| `instituicao` | Instituição de ensino | FIAP |
+| `curso` | Curso | Engenharia de Computação |
+| `documento` | Documento de identificação | `43108177850` |
 | `emissor` | Entidade emissora | UNE |
-| `foto` | URL da foto | imagem padrão |
 
 Exemplo:
 
 ```
-https://SEU_USER.github.io/SEU_REPO/?cie=DD2O0R&nasc=1999-11-13&nome=Larissa%20Loranna%20Alencar%20de%20Sousa&instituicao=Universidade%20Paulista&curso=Pedagogia&documento=000000395456034&emissor=UNE
+https://SEU_USER.github.io/SEU_REPO/?cie=D2LASB&nasc=1999-01-25&nome=Gabriel%20Di%20Bastiani%20do%20Amaral&instituicao=FIAP&curso=Engenharia%20de%20Computacao&documento=43108177850&emissor=UNE
 ```
 
-Campos omitidos usam os valores padrão da página original.
+Campos omitidos usam os valores padrão do aplicativo.
 
 ## Testar localmente
 

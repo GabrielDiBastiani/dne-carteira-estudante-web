@@ -1,12 +1,11 @@
 const defaults = {
-  cie: "DD2O0R",
-  nasc: "1999-11-13",
-  nome: "Larissa Loranna Alencar de Sousa",
-  instituicao: "Universidade Paulista",
-  curso: "Pedagogia",
-  documento: "000000395456034",
+  cie: "D2LASB",
+  nasc: "1999-01-25",
+  nome: "Gabriel Di Bastiani do Amaral",
+  instituicao: "FIAP",
+  curso: "Engenharia de Computação",
+  documento: "43108177850",
   emissor: "UNE",
-  foto: "https://st3.depositphotos.com/2024219/31793/i/450/depositphotos_317939792-stock-photo-young-woman-isolated-yellow-background.jpg",
 };
 
 function readParams() {
